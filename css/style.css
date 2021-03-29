@@ -1,0 +1,92 @@
+.section-title .sub-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #f14836;
+    text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    .section-title .sub-title {
+        font-size: 16px;
+    }
+}
+
+.section-title .title {
+    font-size: 32px;
+    padding-top: 10px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .section-title .title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-title .title {
+        font-size: 24px;
+    }
+}
+
+.section-title .title span {
+    font-weight: 400;
+    display: contents;
+}
+
+.faq-accordion .accordion .card {
+    border: 0;
+}
+
+.faq-accordion .accordion .card .card-header {
+    padding: 0;
+    border: 0;
+    background: none;
+    margin-top: 40px;
+}
+
+.faq-accordion .accordion .card .card-header a {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #222;
+    display: block;
+    position: relative;
+    padding-right: 20px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .faq-accordion .accordion .card .card-header a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .faq-accordion .accordion .card .card-header a {
+        font-size: 16px;
+    }
+}
+
+.faq-accordion .accordion .card .card-header a::before {
+    content: '\f068';
+    font-family: 'Font Awesome\ 5 Free';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.faq-accordion .accordion .card .card-header .collapsed::before {
+    content: '\f067';
+}
+
+.faq-accordion .accordion .card .card-body {
+    padding: 20px 20px 0;
+}
+
+.faq-image img {
+    width: 100%;
+}
